@@ -1,0 +1,423 @@
+* {
+	background-color: #13132B;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	background-color: #13132B;
+	width: 100vw;
+	height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+	font-size: 3.6em;
+	line-height: 1.4em;
+	font-weight: 600;
+	padding: .6em;
+}
+
+h2 {
+	font-family: 'Abel', sans-serif;
+	font-size: 2.8rem;
+	line-height: 1.4em;
+	font-weight: 500;
+	padding: em;
+}
+
+h3 {
+	font-family: 'Abel', sans-serif;
+	font-size: 2.2rem;
+	line-height: 1.4em;
+	font-weight: 400;
+}
+
+h4 {
+	font-family: 'Abel', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.4em;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1 rem;
+	line-height: 1.7em;
+	font-weight: 300;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1 rem;
+	line-height: 2.5em;
+	font-weight: 600;
+}
+
+
+li {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1 rem;
+	line-height: 1.7em;
+	font-weight: 300;
+}
+
+button {
+	text-align: center;
+	background-color: #223A62;
+	color: #FFFFFF;
+	padding: .7em 1.4em;
+	border-radius: 1em;
+	border: 0.2em solid #223A62;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1 rem;
+	line-height: 1.7em;
+	font-weight: 600;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+
+button:hover {
+	color: #13132B;
+	background-color: #FFFFFF;
+	opacity: .6;
+}
+
+button:active {
+	background-color: #ffff00;
+	color: #000000;
+}
+
+.nav {
+	padding: .7em;
+	display: flex;
+	justify-content: right;
+}
+
+.nav__logo {
+	display: flex;
+	padding: .5em;
+	flex-grow: 1;
+	justify-content: flex-start;
+}
+
+.nav__logo--img {
+	display: flex;
+	width: 10em;
+}
+
+.nav__li {
+	display: flex;
+	color: #FF99CC;
+	padding: .2em;
+	margin-top: auto;
+	margin-right: 1.2em;
+	margin-bottom: auto;
+	margin-left: .2em;
+}
+
+.nav__li a {
+	text-decoration: none;
+}
+
+.nav__li a:hover {
+	text-decoration: underline;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../../Diseños/Maveshark/flox-link.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-blend-mode: screen;
+}
+
+.main__element {
+	padding: 2em;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.main__container {
+	display: flex;
+	margin: auto;
+}
+
+.nfts {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 1em;
+}
+
+.nfts__element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.nfts__element--text {
+	text-align: center;
+	padding: .2em;
+	margin: .2em;
+}
+
+.nfts__element a:hover {
+	text-decoration: underline;
+}
+
+.rounded {
+	margin: auto;
+	width: 90%;
+	border-radius: 100% / 30%;
+	clip-path: ellipse(50% 80% at 50% 50%);
+}
+
+.artcards {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../../Diseños/Maveshark/dibujo-estefano.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.artcards__element {
+	text-align: center;
+	background-color: transparent;
+	justify-content: space-evenly;
+	display: flex;
+	width: 100vw;
+}
+
+.artcards__element h4, .artcards__element div {
+	background-color: transparent;
+}
+
+.artcards__element a {
+	background-color: transparent;
+}
+
+.artcards__element a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.artcards__container img {
+	width: 25vw;
+	object-fit: cover;
+}
+
+.comic {
+	display: flex;
+	justify-content: space-between;
+	width: 75%; height: 85vh;
+	margin: 5% auto;
+}
+
+.comic__element {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 1.4em;
+	width: 80%; height: 80%;
+	justify-content: center;
+	margin: 1.1em;
+}
+
+.comic__container {
+	height: 90%;
+}
+
+.comic__container img {
+	height: 100%;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #223A62;
+	width: 100vw; height: 70vh;
+}
+
+.newsletter {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+	background-color: #223A62;
+}
+
+.newsletter__element {
+	text-align: center;
+	background-color: #223A62;
+	width: 50vw;
+	padding: 1.4em;
+	line-height: 2em;
+}
+
+.newsletter__element--input {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	background-color: #223A62;
+	padding: 1.4em;
+	line-height: 2em;
+}
+
+.newsletter__element h3, .newsletter__element p {
+	background-color: #223A62;
+}
+
+.newsletter__container {
+	background-color: #223A62;
+}
+
+.newsletter__input {
+	border: solid .2em #223A62;
+	background-color: #FFF;
+	color: #626262;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.2 rem;
+	line-height: 1.7em;
+	font-weight: 600;
+	padding: 1.4em 2.6em;
+	margin: auto .6em;
+}
+
+.newsletter__input:focus {
+	outline-color: #FFFFFF;
+	outline-style: solid;
+	outline-width: .2em;
+}
+
+.newsletter__input--signup {
+	border: transparent .4em;
+	border-radius: .8em;
+	background-color: #FFF;
+	color: #223A62;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.2 rem;
+	line-height: 1.7em;
+	font-weight: 600;
+	padding: 1.4em 2.6em;
+	margin: auto .6em;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+.newsletter__input--signup:hover {
+	opacity: .6;
+}
+
+.socials {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 100;
+	right: 0;
+	width: 4em;
+	background: transparent;
+	opacity: .8;
+}
+
+.socials div {
+	display: flex;
+	justify-content: flex-end;
+	background: transparent
+}
+
+#facebook a {
+	background-color: #223A62;
+	padding: .6em 1.3em;
+	border-bottom: solid #FFF 2px;
+	width: 3.3em;
+	transition: all .3s ease;
+}
+
+#facebook a:hover {
+	background-color: #000000;
+	padding: .6em 2.6em;
+}
+
+#instagram a {
+	background-color: #7794c5;
+	padding: .6em 1.3em;
+	border-bottom: solid #FFF 2px;
+	width: 3.3em;
+	transition: all .3s ease;
+}
+
+#instagram a:hover {
+	background-color: #000000;
+	padding: .6em 2.6em;
+}
+
+#twitter a {
+	background-color: #2f3642;
+	padding: .6em 1.3em;
+	border-bottom: solid #FFF 2px;
+	width: 3.3em;
+	transition: all .3s ease;
+}
+
+#twitter a:hover {
+	background-color: #000000;
+	padding: .6em 2.6em;
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer__element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: .2em;
+	margin: 1em;
+}
+
+.footer__element img {
+	width: 20em;
+	padding: 2em; 
+}
+
+.footer__element p {
+	padding: 1em;
+}
+
+.footer__element--nav {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5em;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer__element--nav ul {
+	margin: 0 4em;
+	list-style-type: none;
+}
+
+.footer__element--nav li:hover {
+	text-decoration: underline;
+}	
