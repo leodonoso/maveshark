@@ -135,7 +135,7 @@ button:active {
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../../Diseños/Maveshark/flox-link.jpeg");
+	background-image: url("images/flox-link.jpeg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -192,7 +192,7 @@ button:active {
 	justify-content: space-evenly;
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../../Diseños/Maveshark/dibujo-estefano.jpg);
+	background-image: url(images/dibujo-estefano.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
