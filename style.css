@@ -355,7 +355,8 @@ button:active {
 
 #facebook a:hover {
 	background-color: #000000;
-	padding: .6em 2.6em;
+	padding: .6em 2em;
+	border-radius: 20% 0% 0% 20%;
 }
 
 #instagram a {
@@ -369,6 +370,7 @@ button:active {
 #instagram a:hover {
 	background-color: #000000;
 	padding: .6em 2.6em;
+	border-radius: 20% 0% 0% 20%;
 }
 
 #twitter a {
@@ -383,6 +385,7 @@ button:active {
 #twitter a:hover {
 	background-color: #000000;
 	padding: .6em 2.6em;
+	border-radius: 20% 0% 0% 20%;
 }
 
 .footer {
