@@ -345,6 +345,7 @@ button:active {
 }
 
 #facebook a {
+	border-radius: 20% 0% 0% 0%;
 	background-color: #223A62;
 	padding: .6em 1.3em;
 	border-bottom: solid #FFF 2px;
@@ -371,6 +372,7 @@ button:active {
 }
 
 #twitter a {
+	border-radius: 0% 0% 0% 20%;
 	background-color: #2f3642;
 	padding: .6em 1.3em;
 	border-bottom: solid #FFF 2px;
